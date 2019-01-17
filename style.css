@@ -5,16 +5,16 @@
   
   /* Style the body */
   body {
-    font-family: Arial;
+    font-family: 'Lato', sans-serif;
     margin: 0;
+    color: #FFF5EE;
+    background-color: #3D0C02;
   }
   
   /* Header/logo Title */
   .header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
   }
   
   /* Column container */
@@ -26,8 +26,12 @@
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 40%;
-    background-color: #f1f1f1;
+    flex: 25%;
+    padding-top: 75px;
+    background-image: url('images/antlpe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
   }
 
@@ -35,20 +39,68 @@
     float: right;
   }
 
+  h1.name-title {
+    font-size: 24px;
+  }
+
   .name-title {
     padding-left: 20px;
+    font-family: 'Bree Serif', sans-serif;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: 	#3D0C02;
+  }
+
+  .intro-title {
+    float: right;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 20px;
+    font-family: 'Bree Serif', sans-serif;
+    color: #FFF5EE;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    float: right;
   }
   
   /* Main column */
   .main {
-    flex: 60%;
-    background-color: white;
-    padding: 20px;
+    flex: 75%;
+    padding: 75px 20px 20px 20px;
+    background-color: #3D0C02;
     position: relative;
   }
 
+  hr { 
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #FFF5EE;
+  } 
+
   i {
     padding: 10px;
+  }
+
+  .bio-title {
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 36px;
+  }
+
+  .bio-text-1 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .bio-text-2 {
+    font-size: 18px;
   }
   
   .icon {
@@ -56,7 +108,6 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    background-color: #1abc9c;
   }
 
   .icon-responsive {
@@ -64,12 +115,17 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    background-color: #1abc9c;
     display: none;
   }
   
   .tech {
     display: inline-block;
+  }
+
+  h3 {
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 36px;
+    text-align: center;
   }
 
   .project p {
