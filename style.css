@@ -45,7 +45,7 @@
 
   .name-title {
     padding-left: 20px;
-    font-family: 'Bree Serif', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: right;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -57,7 +57,7 @@
     font-size: 24px;
     text-align: right;
     padding-right: 20px;
-    font-family: 'Bree Serif', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #FFF5EE;
   }
 
@@ -90,7 +90,7 @@
   }
 
   .bio-title {
-    font-family: 'Bree Serif', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
   }
 
@@ -120,10 +120,17 @@
   
   .tech {
     display: inline-block;
+    margin-bottom: 200px;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FFF5EE;
+    border-radius: 5px;
+    color: #3D0C02;
   }
 
   h3 {
-    font-family: 'Bree Serif', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 0px;
@@ -133,9 +140,15 @@
     margin-bottom: 200px;
   }
 
+  .project-text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   .stack {
     margin-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .stack-item {
@@ -143,7 +156,7 @@
   }
 
   .link-button {
-    border: 2px solid #FFF5EE;
+    border: 2px solid #3D0C02;
     border-radius: 5px;
     font-size: 24px;
     margin: 20px;
@@ -151,33 +164,29 @@
   }
 
   .link-button:hover {
-    background-color: #FFF5EE;
+    background-color: #3D0C02;
   }
 
   a {
-    color: #FFF5EE;
+    color: #3D0C02;
     padding: 30px;
     text-decoration: none;
   }
 
   a:hover {
-    color: #3D0C02;
+    color: #FFF5EE;
   }
 
   .project-pic {
     border-radius: 5px;
-    height: 300px;
-    width: auto;
-    float: left;
-    margin-right: 30px;
+    height: 500px;
+    border: 2px solid;
   }
 
   .project-pic-2 {
     border-radius: 5px;
-    height: 300px;
-    width: auto;
-    float: right;
-    margin-left: 30px;
+    height: 500px;
+    border: 2px solid;
   }
 
   .table {
@@ -194,6 +203,32 @@
   }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1340px) {
+    .side {
+      text-align: center;
+    }
+
+    .intro-title {
+      float: none;
+      text-align: center;
+    }
+
+    .profile-pic {
+      float: none;
+    }
+
+    .main {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .project-pic {
+      height: 300px;
+      width: auto;
+    }
+  }
+  
   @media screen and (max-width: 785px) {
     .row, .navbar {   
       flex-direction: column;
@@ -217,5 +252,58 @@
     .project p {
       float: none;
       width: 100%;
+    }
+
+    @media screen and (max-width: 650px) {
+      .project-pic {
+        height: 150px;
+        width: auto;
+      }
+    }
+
+    @media screen and (max-width: 414px) {
+      .project-text {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .stack {
+        margin-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      .main {
+        padding: 0px
+      }
+
+      .tech {
+        border-radius: 0px;
+      }
+
+      .intro-title {
+        padding-right: 0px;
+        font-size: 18px;
+      }
+
+      .profile-pic {
+        margin-right: 0px;
+      }
+
+      .bio-title {
+        font-size: 24px;
+      }
+
+      .bio-text-1 {
+        font-size: 14px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      .bio-text-2 {
+        font-size: 14px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
     }
   }
