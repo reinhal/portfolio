@@ -256,7 +256,7 @@
   }
 
   .footer-text {
-    margin-bottom: 0px;
+    margingit -bottom: 0px;
   }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -318,15 +318,19 @@
     .bio-text-1 {
       margin-top: 35px;
       font-size: 24px;
-      padding-right: 300px;
-      padding-left: 300px;
+      padding-right: 150px;
+      padding-left: 150px;
+      text-align: justify;
+      text-justify: inter-word;
     }
 
     .bio-text-2 {
       margin-top: 35px;
       font-size: 24px;
-      padding-right: 300px;
-      padding-left: 300px;
+      padding-right: 150px;
+      padding-left: 150px;
+      text-align: justify;
+      text-justify: inter-word;
     }
   }
 
@@ -343,6 +347,18 @@
     .project p {
       float: none;
       width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .bio-text-1 {
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    .bio-text-2 {
+      padding-right: 100px;
+      padding-left: 100px;
     }
   }
 
