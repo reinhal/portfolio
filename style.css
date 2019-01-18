@@ -131,6 +131,10 @@
     padding: 10px;
   }
 
+  .aboutme-section {
+    margin-bottom: 100px;
+  }
+
   .bio-title {
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
@@ -332,15 +336,15 @@
     }
 
     .github:hover {
-      color: rgb(201, 86, 10);
+      color: rgb(245, 125, 46);
     }
   
     .email:hover {
-      color: rgb(201, 86, 10);;
+      color: rgb(245, 125, 46);
     }
   
     .linkedin:hover {
-      color: rgb(201, 86, 10);;
+      color: rgb(245, 125, 46);
     }
 
     .contact-links-list {
@@ -401,18 +405,36 @@
       height: 150px;
       width: auto;
     }
+
+    .bio-text-1 {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+    .bio-text-2 {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
   }
 
   @media screen and (max-width: 414px) {
     .project-text {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+      text-align: justify;
+      font-size: 16px;
     }
 
     .stack {
-      margin-bottom: 0px;
-      padding-left: 5px;
-      padding-right: 5px;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: justify;
+      line-height: 1.5em;
+    }
+
+    .stack-item {
+      font-size: 16px;
+      margin: 10px;
     }
 
     .main {
@@ -437,13 +459,13 @@
     }
 
     .bio-text-1 {
-      font-size: 14px;
+      font-size: 16px;
       padding-right: 20px;
       padding-left: 20px;
     }
 
     .bio-text-2 {
-      font-size: 14px;
+      font-size: 16px;
       padding-right: 20px;
       padding-left: 20px;
     }
@@ -451,5 +473,29 @@
     .links {
       display: inherit;
       padding-left: 0px;
+    }
+
+    @media screen and (max-width: 375px) {
+      .project-text {
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+
+      .stack {
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .project-text {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .stack {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
     }
   }
