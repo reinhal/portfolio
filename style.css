@@ -139,10 +139,16 @@
   .bio-text-1 {
     margin-top: 35px;
     font-size: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 700px;
   }
 
   .bio-text-2 {
     font-size: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 700px;
   }
 
   .mn-link {
@@ -270,7 +276,7 @@
   }
 
   .footer-text {
-    margingit -bottom: 0px;
+    margin-bottom: 0px;
   }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -325,6 +331,18 @@
       padding-left: 15px;
     }
 
+    .github:hover {
+      color: rgb(201, 86, 10);
+    }
+  
+    .email:hover {
+      color: rgb(201, 86, 10);;
+    }
+  
+    .linkedin:hover {
+      color: rgb(201, 86, 10);;
+    }
+
     .contact-links-list {
       padding: 0px;
     }
@@ -334,6 +352,7 @@
       font-size: 24px;
       padding-right: 150px;
       padding-left: 150px;
+      width: 100%;
       text-align: justify;
       text-justify: inter-word;
     }
@@ -343,6 +362,7 @@
       font-size: 24px;
       padding-right: 150px;
       padding-left: 150px;
+      width: 100%;
       text-align: justify;
       text-justify: inter-word;
     }
