@@ -146,6 +146,7 @@
     text-align: justify;
     text-justify: inter-word;
     width: 700px;
+    line-height: 1.25em;
   }
 
   .bio-text-2 {
@@ -153,6 +154,7 @@
     text-align: justify;
     text-justify: inter-word;
     width: 700px;
+    line-height: 1.25em;
   }
 
   .mn-link {
