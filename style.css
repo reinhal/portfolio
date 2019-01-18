@@ -68,6 +68,36 @@
     margin-right: 20px;
     float: right;
   }
+
+  .contact-title {
+    text-align: right;
+    margin-bottom: 5px;
+  }
+
+  .contact-links {
+    font-size: 24px;
+  }
+
+  .contact-links-list {
+    margin: 0px;
+  }
+
+  .github {
+    padding-right: 0px;
+  }
+
+  .email {
+    padding-right: 15px;
+  }
+
+  .linkedin {
+    padding-right: 15px;
+  }
+
+  .contact-a {
+    color: #FFF5EE;
+    padding: 0px;
+  }
   
   /* Main column */
   .main {
@@ -95,12 +125,23 @@
   }
 
   .bio-text-1 {
-    margin-top: 40px;
+    margin-top: 35px;
     font-size: 18px;
   }
 
   .bio-text-2 {
     font-size: 18px;
+  }
+
+  .mn-link {
+    color:  #FFF5EE;
+    padding: 0px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .mn-link:hover {
+    font-size: larger;
   }
   
   .icon {
@@ -111,10 +152,6 @@
   }
 
   .icon-responsive {
-    padding: 20px;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
     display: none;
   }
   
@@ -129,6 +166,10 @@
     color: #3D0C02;
   }
 
+  .tech.last {
+    margin-bottom: 0px;
+  }
+
   h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -138,6 +179,11 @@
 
   .tech {
     margin-bottom: 200px;
+  }
+
+  .project-title {
+    font-weight: bold;
+    font-size: larger;
   }
 
   .project-text {
@@ -201,6 +247,17 @@
   ul.links li {
     display: inline;
   }
+
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .footer-text {
+    margin-bottom: 0px;
+  }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 1340px) {
@@ -220,16 +277,7 @@
     .main {
       text-align: center;
     }
-  }
 
-  @media screen and (max-width: 1050px) {
-    .project-pic {
-      height: 300px;
-      width: auto;
-    }
-  }
-  
-  @media screen and (max-width: 785px) {
     .row, .navbar {   
       flex-direction: column;
     }
@@ -239,10 +287,53 @@
     }
 
     .icon-responsive {
-      display: block;
-      position: inherit;
-      background-color: #1abc9c;
+      display: table;
+      margin: 0 auto;
+    }
+
+    .contact-title {
+      margin-bottom: 5px;
+      padding-top: 20px;
+      text-align: center;
+    }
+
+    .linkedin {
+      padding-right: 15px;
+      padding-left: 80px;
+    }
+
+    .email {
+      padding-left: 15px;
+    }
+
+    .github {
+      padding-right: 75px;
+      padding-left: 15px;
+    }
+
+    .contact-links-list {
       padding: 0px;
+    }
+
+    .bio-text-1 {
+      margin-top: 35px;
+      font-size: 24px;
+      padding-right: 300px;
+      padding-left: 300px;
+    }
+
+    .bio-text-2 {
+      margin-top: 35px;
+      font-size: 24px;
+      padding-right: 300px;
+      padding-left: 300px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .project-pic {
+      height: 300px;
+      width: auto;
     }
 
     img {
@@ -253,57 +344,62 @@
       float: none;
       width: 100%;
     }
+  }
 
-    @media screen and (max-width: 650px) {
-      .project-pic {
-        height: 150px;
-        width: auto;
-      }
+  @media screen and (max-width: 650px) {
+    .project-pic {
+      height: 150px;
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .project-text {
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
-    @media screen and (max-width: 414px) {
-      .project-text {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
+    .stack {
+      margin-bottom: 0px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
 
-      .stack {
-        margin-bottom: 0px;
-        padding-left: 5px;
-        padding-right: 5px;
-      }
+    .main {
+      padding: 0px
+    }
 
-      .main {
-        padding: 0px
-      }
+    .tech {
+      border-radius: 0px;
+    }
 
-      .tech {
-        border-radius: 0px;
-      }
+    .intro-title {
+      padding-right: 0px;
+      font-size: 18px;
+    }
 
-      .intro-title {
-        padding-right: 0px;
-        font-size: 18px;
-      }
+    .profile-pic {
+      margin-right: 0px;
+    }
 
-      .profile-pic {
-        margin-right: 0px;
-      }
+    .bio-title {
+      font-size: 24px;
+    }
 
-      .bio-title {
-        font-size: 24px;
-      }
+    .bio-text-1 {
+      font-size: 14px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
 
-      .bio-text-1 {
-        font-size: 14px;
-        padding-right: 20px;
-        padding-left: 20px;
-      }
+    .bio-text-2 {
+      font-size: 14px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
 
-      .bio-text-2 {
-        font-size: 14px;
-        padding-right: 20px;
-        padding-left: 20px;
-      }
+    .links {
+      display: inherit;
+      padding-left: 0px;
     }
   }
