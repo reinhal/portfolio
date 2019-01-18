@@ -94,6 +94,18 @@
     padding-right: 15px;
   }
 
+  .github:hover {
+    color: #3D0C02;
+  }
+
+  .email:hover {
+    color: #3D0C02;
+  }
+
+  .linkedin:hover {
+    color: #3D0C02;
+  }
+
   .contact-a {
     color: #FFF5EE;
     padding: 0px;
