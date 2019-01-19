@@ -2,7 +2,7 @@
 
 ## www.lisareinhardt.io
 
-![portfolio_screenshot](/Users/lisarein/GitStuff/portfolio/images/portfolio_screenshot.png)
+![portfolio_screenshot](/images/portfolio_screenshot.png)
 
 ## Technology
 
