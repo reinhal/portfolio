@@ -296,6 +296,11 @@
       text-align: center;
     }
 
+    .name-title {
+      font-weight: bold;
+      font-size: larger;
+    }
+
     .profile-pic {
       float: none;
     }
