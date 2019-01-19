@@ -436,15 +436,15 @@
     }
 
     .project-text {
-      padding-left: 60px;
-      padding-right: 60px;
+      padding-left: 40px;
+      padding-right: 40px;
       text-align: justify;
       font-size: 16px;
     }
 
     .stack {
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
       text-align: justify;
       line-height: 1.5em;
     }
@@ -499,8 +499,8 @@
       }
 
       .stack {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     }
 
