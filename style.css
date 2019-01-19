@@ -396,6 +396,11 @@
   }
 
   @media screen and (max-width: 850px) {
+    .project-pic {
+      height: 300px;
+      width: auto;
+    }
+
     .bio-text-1 {
       padding-right: 100px;
       padding-left: 100px;
@@ -409,7 +414,7 @@
 
   @media screen and (max-width: 650px) {
     .project-pic {
-      height: 150px;
+      height: 200px;
       width: auto;
     }
 
@@ -425,6 +430,11 @@
   }
 
   @media screen and (max-width: 414px) {
+    .project-pic {
+      height: 200px;
+      width: auto;
+    }
+
     .project-text {
       padding-left: 60px;
       padding-right: 60px;
