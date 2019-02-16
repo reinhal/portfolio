@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Lisa Reinhardt's Portfolio</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body id="welcome-section">
     <div class="row">
     <div class="side">
-        <img class="profile-pic" src="images/ProfilePicLisa.jpg" alt="Profile Picture of Lisa Reinhardt">
+        <img class="profile-pic" src=https://i.ibb.co/3fpgs3P/Profile-Pic-Lisa.jpg" alt="Profile Picture of Lisa Reinhardt">
         <h1 class="intro-title"><span class="name-title">I'm Lisa Reinhardt,</span><br>a Full Stack Web Developer<br>with a background in Education.</h1>
-        <div class="icon">
+        <div id="contact" class="icon">
             <h3 class="contact-title">Contact</h3>
             <ul class="contact-links-list">
                 <li class="contact-links"><a class="contact-a" href="http://www.github.com/reinhal" target="#"><i class="github fab fa-github"></i></a></li>
@@ -24,7 +25,19 @@
         </div>
     </div>
     <div class="main">
-        <div class="aboutme-section">
+        <div id="navbar">
+          <nav role="naviagtion">
+            <div class="nav-table">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#about-anchor">About Me</a></li>
+                    <li><a class="nav-link" href="#project-anchor">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+          </nav>
+        </div>
+        <a class="anchor" id="about-anchor"></a>
+        <div id="about-me" class="aboutme-section">
             <h2 class="bio-title">About Me</h2>
             <p class="bio-text-1">
                 The problem solving and creative thinking required in software development appeals to my spirit as an educator. I embrace hard work. 
@@ -40,17 +53,16 @@
                 Look at my <a class="mn-link" href="gLR_Resume1_19.pdf" target="#"> resume</a> to learn about my professional experience.
             </p>
         </div>
-        <hr>
-        <h2 class="bio-title">Projects</h2>
-        <div class="row">
+        <a class="anchor" id="project-anchor"></a>
+        <section id="projects">
+          <hr>
+          <h2 class="bio-title">Projects</h2>
+        <div class="row project-tile">
             <article class="project">
                 <div class="tech">
-                    <img class="project-pic" src="images/ctlz_pic.png" alt="Screenshot of Contactualize project">
+                    <img class="project-pic" src="https://i.ibb.co/gj2zggx/ctlz-pic.png" alt="Screenshot of Contactualize project">
                     <p class="project-text">
-                        <span class="project-title">Contactualize</span> is a relationship manager. 
-                        This application helps users track their personal and professional relationships. 
-                        The user creates contacts by adding a name and notes.  Then, the user records interactions (emails, meetings, phone conversations, etc) to track 
-                        the life events with their contacts. I am continuing to expand this application.
+                        <span class="project-title">Contactualize</span> is a relationship manager. This application helps users track their personal and                         professional relationships. The user creates contacts by adding a name and notes.  Then, the user records interactions (emails,                           meetings, phone conversations, etc) to track the life events with their contacts. I am continuing to expand this application.
                     </p>
                     <div class="table">
                         <ul class="stack">
@@ -81,10 +93,10 @@
                 </div>
             </article>
         </div>
-        <div class="row">
+        <div class="row project-tile">
             <article class="project">
                 <div class="tech">
-                    <img class="project-pic" src="images/jkdn_pic.png" alt="Screenshot of JusKidin project">
+                    <img class="project-pic" src="https://i.ibb.co/ctkVZ8C/jkdn-pic.png" alt="Screenshot of JusKidin project">
                     <p class="project-text">
                         <span class="project-title">JusKidin</span> is an all-in-one web tool for people who have active kids 
                         they love! Life with kids is amazing, but managing and tracking it all MUST be less tedious and MUST 
@@ -120,15 +132,15 @@
                 </div>
             </article>
         </div>
-        <div class="row">
+        <div class="row project-tile">
                 <article class="project">
                         <div class="tech last">
-                            <img class="project-pic" src="images/jk_pic.png" alt="Screenshot of JusNoshin project">
+                            <img class="project-pic" src="https://i.ibb.co/rf2wspr/Screen-Shot-2019-01-26-at-9-20-24-AM-2.png" alt="Screenshot of JusNoshin project">
                             <p class="project-text">
                                 <span class="project-title">JusNoshin</span> allows users to find recipes by selecting preferred dietary 
                                 requirements, cuisines and allergies/intolerances. After selecting a recipe from the suggested results, the user is 
-                                given an appropriate wine pairing for that particular recipe. My family has a lot of dietary preferences and restrictions.  
-                                We wanted a tool to help find good recipes we could prepare together, and for the adults, a tasty wine.
+                                given an appropriate wine pairing for that particular recipe. My family has a lot of dietary preferences and 
+                                restrictions. We wanted a tool to help find good recipes we could prepare together, and for the adults, a tasty wine.
                             </p>
                             <div class="table">
                                 <ul class="stack">
@@ -149,12 +161,19 @@
                         </div>
                 </article>
             </div>
+        </section>
             <div class="icon-responsive">
                 <h3 class="contact-title">Contact</h3>
                 <ul class="contact-links-list">
-                    <li class="contact-links"><a class="contact-a" href="http://www.github.com/reinhal" target="#"><i class="github fab fa-github"></i></a></li>
-                    <li class="contact-links"><a class="contact-a" href="mailto:reinhal@gmail.com" target="#"></a><i class="email far fa-envelope"></i></a></li>
-                    <li class="contact-links"><a class="contact-a" href="https://www.linkedin.com/in/lisareinhardt76/" target="#"><i class="linkedin fab fa-linkedin-in"></i></a></li>
+                    <li class="contact-links">
+                      <a id="profile-link" class="contact-a" href="http://www.github.com/reinhal" target="_blank"><i class="github fab fa-github"></i></a>
+                    </li>
+                    <li class="contact-links">
+                      <a id="profile-link" class="contact-a" href="mailto:reinhal@gmail.com" target="_blank"></a><i class="email far fa-envelope"></i></a>
+                    </li>
+                    <li class="contact-links">
+                      <a id="profile-link" class="contact-a" href="https://www.linkedin.com/in/lisareinhardt76/" target="_blank"><i class="linkedin fab fa-linkedin-in"></i></a> 
+                    </li>
                 </ul>
             </div>
             <div class="footer">
