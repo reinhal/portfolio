@@ -391,8 +391,9 @@ ul.links li {
     display: none;
   }
 
-  .contact-resp {
+  .nav-link.contact-resp {
     display: inline;
+    float: none;
   }
   
   .nav-link {
