@@ -130,11 +130,43 @@ h1.name-title {
   align-items: center;
 }
 
+.contact-full {
+  display: block;
+}
+
+.contact-resp {
+  display: none;
+}
+
 .nav-list {
   padding-left: 0px;
 }
 
 .nav-link {
+  color: #FFF5EE;
+/*     background-color: green; */
+  float: left;
+  text-align: center;
+  margin: 14px 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0px
+}
+
+.nav-link.contact-full {
+  color: #FFF5EE;
+/*     background-color: green; */
+  float: left;
+  text-align: center;
+  margin: 14px 16px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0px
+}
+
+.nav-link.contact-resp {
   color: #FFF5EE;
 /*     background-color: green; */
   float: left;
@@ -169,9 +201,9 @@ a.anchor {
   visibility: hidden;
 }
 
-.aboutme-section {
+/* .aboutme-section {
   margin-bottom: 100px;
-}
+} */
 
 .bio-title {
   font-family: 'Poppins', sans-serif;
@@ -337,6 +369,10 @@ ul.links li {
     height: 100px;
   }
 
+  .main {
+    padding: 20px;
+  }
+
   .nav-table {
     display: table;
     margin: 0 auto;
@@ -350,10 +386,19 @@ ul.links li {
   ul.nav-list li {
     display: inline;
   }
+
+  .contact-full {
+    display: none;
+  }
+
+  .contact-resp {
+    display: inline;
+  }
   
   .nav-link {
     float: none;
   }
+
   .side {
     text-align: center;
   }
@@ -526,6 +571,10 @@ ul.links li {
     font-size: 16px;
   }
 
+  .nav-link.contact-resp {
+    font-size: 16px;
+  }
+
   .project-text {
     padding-left: 40px;
     padding-right: 40px;
@@ -621,6 +670,10 @@ ul.links li {
 
     .nav-link {
       padding: 15px;
+    }
+
+    .nav-link.contact-resp {
+      font-size: 16px;
     }
 
     .stack {
