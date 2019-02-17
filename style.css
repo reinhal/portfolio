@@ -207,11 +207,13 @@ a.anchor {
 
 .highlight {
   color: rgb(245, 125, 46);
+  display: none;
 }
 
 .highlight-contact {
   color: #3D0C02;
   font-family: 'Poppins', sans-serif;
+  display: none;
 }
 
 .bio-title {

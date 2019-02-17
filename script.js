@@ -1,6 +1,9 @@
 function highlightAbout() {
     $("#nav-about").click(function() {
-        $(".about-me-section").addClass("highlight")
+        setTimeout( function() {
+            $(".about-me-section").addClass("highlight")
+            $(".about-me-section").fadeIn(3000)
+        }, 1000);
         setTimeout( function() {
             $(".about-me-section").removeClass("highlight")
         }, 3000);
@@ -9,7 +12,10 @@ function highlightAbout() {
 
 function highlightProject() {
     $("#nav-project").click(function() {
-        $(".project-section").addClass("highlight")
+        setTimeout( function() {
+            $(".project-section").addClass("highlight")
+            $(".project-section").fadeIn(3000)
+        }, 1000);
         setTimeout( function() {
             $(".project-section").removeClass("highlight")
         }, 3000);
@@ -18,7 +24,10 @@ function highlightProject() {
 
 function highlightContact() {
     $("#nav-contact").click(function() {
-        $(".contact-title").addClass("highlight-contact")
+        setTimeout( function() {
+            $(".contact-title").addClass("highlight-contact")
+            $(".contact-title").fadeIn(3000)
+        }, 1000);
         setTimeout( function() {
             $(".contact-title").removeClass("highlight-contact")
         }, 3000);
@@ -27,10 +36,13 @@ function highlightContact() {
 
 function highlightContactMe() {
     $("#nav-contact-me").click(function() {
-        $(".contact-me").addClass("highlight")
+        setTimeout( function() {
+            $(".contact-me").addClass("highlight")
+            $(".contact-me").fadeIn(3000)
+        }, 1000);
         setTimeout( function() {
             $(".contact-me").removeClass("highlight")
-        }, 3000);
+        }, 4000);
     });
 }
 
