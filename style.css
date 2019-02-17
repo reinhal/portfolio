@@ -3,6 +3,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Style the body */
 body {
   font-family: 'Lato', sans-serif;
