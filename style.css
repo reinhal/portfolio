@@ -205,9 +205,14 @@ a.anchor {
   visibility: hidden;
 }
 
-/* .aboutme-section {
-  margin-bottom: 100px;
-} */
+.highlight {
+  color: rgb(245, 125, 46);
+}
+
+.highlight-contact {
+  color: #3D0C02;
+  font-family: 'Poppins', sans-serif;
+}
 
 .bio-title {
   font-family: 'Poppins', sans-serif;
