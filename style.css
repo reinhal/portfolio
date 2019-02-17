@@ -125,7 +125,6 @@ h1.name-title {
 
 #navbar {
   height: 125px;
-/*     background-color: blue; */
   background-color: #3D0C02;
   position: fixed;
   top: 0;
@@ -148,7 +147,6 @@ h1.name-title {
 
 .nav-link {
   color: #FFF5EE;
-/*     background-color: green; */
   float: left;
   text-align: center;
   margin: 14px 16px;
@@ -160,7 +158,6 @@ h1.name-title {
 
 .nav-link.contact-full {
   color: #FFF5EE;
-/*     background-color: green; */
   float: left;
   text-align: center;
   margin: 14px 16px;
@@ -172,7 +169,6 @@ h1.name-title {
 
 .nav-link.contact-resp {
   color: #FFF5EE;
-/*     background-color: green; */
   float: left;
   text-align: center;
   margin: 14px 16px;
@@ -206,13 +202,12 @@ a.anchor {
 }
 
 .highlight {
-  font-size: larger;
-  background-color: rgb(245, 125, 46);
+  color: #3D0C02;
+  text-shadow: 2px 2px #FFF5EE;
 }
 
 .highlight-contact {
-  background-color: #3D0C02;
-  font-family: 'Poppins', sans-serif;
+  text-shadow: 3px 3px #3D0C02;
 }
 
 .bio-title {
@@ -381,6 +376,11 @@ ul.links li {
 
   .main {
     padding: 20px;
+  }
+
+  .highlight {
+    color: #3D0C02;
+    text-shadow: 1px 1px #FFF5EE;
   }
 
   .nav-table {

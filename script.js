@@ -2,10 +2,12 @@ function highlightAbout() {
     $("#nav-about").click(function() {
         setTimeout( function() {
             $(".aboutme-section").addClass("highlight")
+            $('.mn-link').addClass('highlight')
         }, 1000);
         setTimeout( function() {
             $(".aboutme-section").removeClass("highlight")
-        }, 2000);
+            $('.mn-link').removeClass('highlight')
+        }, 3000);
     });
 }
 
@@ -16,7 +18,7 @@ function highlightProject() {
         }, 1000);
         setTimeout( function() {
             $(".project-section").removeClass("highlight")
-        }, 2000);
+        }, 3000);
     });
 }
 
@@ -27,7 +29,7 @@ function highlightContact() {
         }, 1000);
         setTimeout( function() {
             $("#contact").removeClass("highlight-contact")
-        }, 2000);
+        }, 3000);
     });
 }
 
@@ -38,7 +40,7 @@ function highlightContactMe() {
         }, 1000);
         setTimeout( function() {
             $(".icon-responsive").removeClass("highlight")
-        }, 2000);
+        }, 3000);
     });
 }
 
