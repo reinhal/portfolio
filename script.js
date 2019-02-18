@@ -2,11 +2,11 @@ function highlightAbout() {
     $("#nav-about").click(function() {
         setTimeout( function() {
             $(".aboutme-section").addClass("highlight")
-            $('.mn-link').addClass('highlight')
+            $(".mn-link").addClass("highlight")
         }, 1000);
         setTimeout( function() {
             $(".aboutme-section").removeClass("highlight")
-            $('.mn-link').removeClass('highlight')
+            $(".mn-link").removeClass("highlight")
         }, 3000);
     });
 }
@@ -45,8 +45,8 @@ function highlightContactMe() {
 }
 
 $(function() {
-    highlightAbout();
-    highlightProject();
-    highlightContact();
-    highlightContactMe();
+    // highlightAbout();
+    // highlightProject();
+    // highlightContact();
+    // highlightContactMe();
 });
